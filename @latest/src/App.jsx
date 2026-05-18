@@ -6,12 +6,12 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css'
 
 function App() {
-  return(
+  return (
     <div>
       <Routes>
         <Route path="/" element={<Navigate to="/auth/register" replace />} />
-        <Route path="/auth/register" element={<Register/>}/>
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/auth/register" element={<Register />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </div>
   )
