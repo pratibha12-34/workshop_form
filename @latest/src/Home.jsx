@@ -10,30 +10,36 @@ function Home() {
         <h5>Details:-</h5>
         <ol list-style-type="none">
           
-          <li><p>Dates:- </p></li>
-          <li><p>Mode:- ONLINE</p></li>
+          <li class="dates"><p>Dates:- </p></li>
+          <li class="mode"><p>Mode:- ONLINE</p></li>
         </ol>
       
-      <blockquote>
+      <blockquote> &nbsp;
         <ul>
-          <li><h4 >- : Basics : -</h4>
+          <li class="topics"><p>-:All Topics:- </p></li>
+           <li><h4 >- : Basics : -</h4>
           <ul>
-            <li>-Proper document structure</li>
-          <li>-Html Tags</li>
-          <li>-The img tag</li>
-          <li>-Nesting</li>
-          <li>-Buttons</li>
-          <li>-Input tags</li>
-          <li>-Anchor tags</li>
-          <li>-Lists</li>
-          <li>-Aside</li>
+            <pre>
+              <li>  -Proper document structure</li>
+              <li>  -Html Tags</li>
+              <li>  -Div Tag</li>
+              <li>  -Lists</li>
+              <li>  -Aside</li>
+            </pre>
+            
           </ul>
           
           </li>
           
 
           <li><h4>- :Advance: -</h4></li>
-          <li>Semantic tags</li>
+          
+          <pre>
+            <li>  -Semantic tags</li>
+            <li>  -Media and Hyperlinks</li>
+            <li>  -Forms</li>
+          </pre>
+
         </ul>
       </blockquote>
       

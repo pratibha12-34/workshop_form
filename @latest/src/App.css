@@ -11,6 +11,7 @@
   background-image: url("/btn8_back.jpg");
   background-position: right;
   background-clip: text;
+  
   color: transparent;
   margin: 10vh 20vh 5vh 20vh;
   padding: 28px;
@@ -20,6 +21,16 @@
   border: 5px solid transparent;
   border-image: url("/btn6_back.webp") 40 round;
   border-radius: 20px;
+}
+
+.htmlworkshop .mode{
+  color:black;
+}
+.htmlworkshop .dates{
+  color:black;
+}
+.htmlworkshop .topics{
+  color:black;
 }
 
 h4 {
@@ -39,16 +50,16 @@ ol {
   list-style-type: none;
 }
 
-.firstlink {
+/* .firstlink {
   margin-top: 19px;
   font-size: x-large;
 }
 
 .firstlink:visited {
   color: azure;
-}
+} */
 
-}
+
 
 html,
 body {
@@ -129,4 +140,18 @@ button {
   border-radius: 10px;
   background-image: url('/btn6_back.webp');
   background-position: right;
+}
+
+.firstlink{
+    color:snow;
+    /* background-image: url("/snow.jpg"); */
+    
+}
+
+.firstlink:visited{
+    color:snow;
+   /* background-clip: text;
+   background-image: url("/snow.jpg"); */
+   
+    
 }

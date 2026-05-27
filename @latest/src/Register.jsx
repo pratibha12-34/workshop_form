@@ -13,7 +13,7 @@ import './App.css';
   const handlePayment = () => {
     const options = {
       key: "rzp_test_Sqn2jKhinJ8GGo", // Key ID
-      amount: "50000", // Amount in subunits (e.g., 50000 paise = 500 INR)
+      amount: "5000", // Amount in subunits (e.g., 50000 paise = 500 INR)
       currency: "INR",
       name: "Workshop Registration",
       description: "Payment for Workshop",
