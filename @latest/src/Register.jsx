@@ -42,7 +42,7 @@ import './App.css';
 
        setloading(true);
        try{
-          const res = await axios.post('http://localhost:3000/auth/register',registerdata , {
+          const res = await axios.post('/api/auth/register', registerdata, {
             headers:{'Content-Type':'application/json'},
           });
           console.log("Register response:", res.data);
